@@ -2,6 +2,8 @@ import React from "react";
 import Photoswipe, { Item, Options } from "photoswipe";
 import PhotoswipeUIDefault from "photoswipe/dist/photoswipe-ui-default";
 import classnames from "classnames";
+import "photoswipe/dist/default-skin/default-skin.css";
+import "photoswipe/dist/photoswipe.css";
 
 type Props = {
   isOpen: boolean;
